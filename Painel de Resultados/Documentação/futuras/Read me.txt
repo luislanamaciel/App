@@ -1,0 +1,9 @@
+Média movel
+dentro do grafico tempora é possivel criar
+uma média móvel que analise um período menor
+exemplo a média móvel dos últimos 10dias
+dentro de uma venda de 1 ano.
+
+É uma ótima metodologia para identificar tendencias
+de curto e médio prazo
+df_rollling_6m= df["Sales].rolling(window=6)mean()
